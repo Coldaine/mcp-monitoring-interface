@@ -243,8 +243,7 @@ with gr.Blocks(css=CUSTOM_CSS, theme=gr.themes.Soft()) as demo:
             # Data display
             output_df = gr.Dataframe(
                 label="Detailed Data",
-                wrap=True,
-                height=300
+                wrap=True
             )
             
             # Event handlers
@@ -389,6 +388,6 @@ def launch_interface():
 
 
 if __name__ == "__main__":
-    print("🚀 Starting MCP Monitoring Interface...")
+    print("[STARTING] MCP Monitoring Interface...")
     print(f"Server will be available at http://{config.GRADIO_SERVER_NAME}:{config.GRADIO_SERVER_PORT}")
     launch_interface()

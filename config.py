@@ -28,7 +28,7 @@ ENABLE_REAL_TIME_STREAMING = os.getenv("ENABLE_REAL_TIME_STREAMING", "True").low
 
 # UI Customization
 THEME = os.getenv("THEME", "default")  # Options: default, soft, monochrome, or custom
-CUSTOM_CSS_PATH = os.getenv("CUSTOM_CSS_PATH", "static/custom_styles.css")
+CUSTOM_CSS_PATH = os.getenv("CUSTOM_CSS_PATH", "custom_styles.css")
 
 # Database Configuration (Optional)
 DATABASE_URL = os.getenv("DATABASE_URL", None)
